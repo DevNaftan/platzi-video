@@ -1,0 +1,23 @@
+.Carousel {
+  overflow: hidden;
+  padding: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.Carousel__container {
+  transition: transform 450ms;
+  font-size: 0;
+  white-space: nowrap;
+  margin: 70px 0px;
+  padding-bottom: 10px;
+}
+
+.Carousel__container:hover .CarouselItem {
+  opacity: 0.3;
+}
+
+.Carousel__container:hover .CarouselItem:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}

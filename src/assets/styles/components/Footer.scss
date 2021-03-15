@@ -1,0 +1,26 @@
+.Footer {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  padding: 20px;
+}
+
+.Footer a {
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.Footer a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .Footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

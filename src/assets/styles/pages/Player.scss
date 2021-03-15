@@ -1,0 +1,23 @@
+.Player {
+  display: flex;
+  height: calc(100vh - 100px);
+  padding: 20px;
+}
+
+.Player-back {
+  position: fixed;
+  top: 35px;
+  left: 35px;
+  font-size: 12px;
+}
+
+.Player-back button {
+  text-decoration: none;
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}

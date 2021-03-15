@@ -1,0 +1,75 @@
+.Header {
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  top: 0px;
+  width: 100%;
+  padding: 20px;
+}
+
+.isLogin,
+.isRegister {
+  background-color: #21c08b;
+}
+
+.Header__logo {
+  display: flex;
+  width: 200px;
+  align-items: center;
+}
+
+.Header__logo img {
+  width: 100%;
+}
+
+.Header__menu ul {
+  display: none;
+  list-style: none;
+  margin: 0px 0px 0px -14px;
+  padding: 0px;
+  position: absolute;
+  width: 100px;
+  text-align: right;
+}
+
+.Header__menu:hover ul,
+ul:hover {
+  display: block;
+}
+
+.Header__menu li {
+  margin: 10px 0px;
+}
+
+.Header__menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.Header__menu li a:hover {
+  text-decoration: underline;
+}
+
+.Header__menu--profile {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.Header__menu--profile img {
+  margin-right: 8px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .Header__logo {
+    width: 150px;
+  }
+
+  .Header__menu--profile img {
+    width: 35px;
+  }
+}
