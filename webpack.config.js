@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: './js/[name].js',
-    publicPath: '/',
+    publicPath: '/platzi-video/',
   },
   resolve: {
     extensions: ['.js', '.jsx'],

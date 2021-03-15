@@ -10,7 +10,7 @@ import NotFound from '../pages/NotFound';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/platzi-video'>
       <Layout>
         <Switch>
           <Route exact path='/' component={Home} />
